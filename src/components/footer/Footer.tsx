@@ -57,7 +57,7 @@ export default function Footer() {
         </p>
         <p>
           <a
-            href='https://github.com/ArizHernandez/portafolio'
+            href='https://github.com/12yu43/Portfolio_2024'
             target='_blank'
             rel='noreferrer'
             className='footer__message-source'
