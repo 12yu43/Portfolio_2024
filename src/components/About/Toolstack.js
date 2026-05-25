@@ -5,9 +5,14 @@ import {
   SiRedux, 
   SiJira, 
   SiSonarqube, 
-  SiGithub 
+  SiGithub,
+  SiStripe,
+  SiRazorpay,
+  SiGoogleanalytics,
+  SiVercel,
+  SiHeroku
 } from "react-icons/si"; 
-import { FaProjectDiagram } from "react-icons/fa"; 
+import { FaProjectDiagram, FaRobot, FaServer, FaSearchengin } from "react-icons/fa"; 
 
 
 function Toolstack() {
@@ -30,6 +35,24 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub /> {/* GitHub */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStripe /> {/* Payment Gateway - Stripe */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRazorpay /> {/* Payment Gateway - Razorpay */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaRobot /> {/* AI Chatbot */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaSearchengin /> {/* SEO */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel /> {/* Server Deployment - Vercel */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHeroku /> {/* Server Deployment - Heroku */}
       </Col>
     </Row>
   );

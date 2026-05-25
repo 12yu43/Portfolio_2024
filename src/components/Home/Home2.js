@@ -19,11 +19,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a frontend developer at Kurmato Company, specializing in building dynamic and responsive web applications using React.js. 🤷‍♂️
+            I am a Full Stack developer specializing in building dynamic and responsive web applications using React.js. 🤷‍♂️
               <br />
               <br />With expertise in 
               <i>
-                <b className="purple"> JavaScript, HTML, and CSS, React js </b>
+                <b className="purple">  React.js, Next.js, Angular, React Native with JavaScript, HTML, and CSS </b>
               </i>
               <br />
               <br />

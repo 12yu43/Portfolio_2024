@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -21,7 +20,69 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
+
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Executive Headlines"
+              description="A comprehensive news and media platform built with React.js and Next.js. Integrated SEO optimization for better search engine visibility. Features include real-time news updates, content management system, and responsive design with modern UI/UX."
+              demoLink="https://executiveheadlines.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Retreats of India"
+              description="Tourism and retreat booking platform developed with full-stack technologies. Integrated payment gateway for secure transactions. Built with React.js frontend, Node.js backend, and MongoDB database. Features include user authentication, booking management, and admin dashboard."
+              demoLink="https://retreatsofindia.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Clarity Mentor"
+              description="Educational mentoring platform built with React and Next.js. Implemented AI chatbot for 24/7 student support and query resolution. Features include live mentor sessions, video streaming, progress tracking, and personalized learning paths."
+              demoLink="https://claritymentor.io/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="HR One"
+              description="Human Resources Management System built with React.js and Next.js. Features include employee management, payroll system, attendance tracking, and leave management. Integrated payment gateway for salary processing. Deployed on Vercel with automated CI/CD pipeline."
+              demoLink="https://hrone-kappa.vercel.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Home Maintenance"
+              description="Home maintenance service booking platform built with Angular and React.js. Integrated payment gateway for service payments. Features include service provider management, booking system, customer reviews, and server deployment on cloud. Built with Node.js backend and MySQL database."
+              demoLink="https://www.homemaintenances.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Doon Silk"
+              description="E-commerce platform for silk products built with React.js and Next.js. Implemented SEO optimization for improved search rankings. Features include product catalog, shopping cart, payment gateway integration, order tracking, and inventory management system. Server deployed with optimized performance."
+              demoLink="https://doonsilk.com/"
+            />
+          </Col>
+
+                 <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -54,39 +115,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
